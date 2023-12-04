@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+:root {
+    --cor-texto-principal: #0000ff; 
+    --cor-titulo: #ff0000; 
+    --tamanho-texto: 1.5em;
+    --tamanho-titulo: 8em;
+
+}
+
+body {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/798/402/355/gradient-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+h1 {
+    font-size: var(--tamanho-titulo);
+    color: var(--cor-titulo);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    /* background: linear-gradient(to bottom, rgb(240, 4, 240), cyan); */
+    background-image: url(https://media.tenor.com/eaCVrwyJZK8AAAAd/galaxy-space.gif);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -MS
+}
